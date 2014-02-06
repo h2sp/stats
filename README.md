@@ -29,5 +29,10 @@ import scipy as sp
 ```sh
 pip install matplotlib
 
+# python 3.3は以下実行(2014/02/06時点 1.2.0でないt入らないっぽい)
+# http://penandpants.com/2012/02/24/install-python/
+
+pip install git+git://github.com/matplotlib/matplotlib.git
+
 import matplotlib.pyplot as plt
 ```
